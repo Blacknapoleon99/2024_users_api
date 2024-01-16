@@ -8,7 +8,7 @@ public class TestController {
 
     @GetMapping("/test")
     public String getTest(){
-        return "A test of the Controller that we are using for a seperate branch";
+        return "In main branch";
     }
 
 
