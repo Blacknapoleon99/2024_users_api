@@ -5,6 +5,7 @@ import org.springframework.web.bind.annotation.PatchMapping;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.*;
 
 @RestController
 public class ConflictsController {
@@ -28,5 +29,12 @@ public class ConflictsController {
     public String patchConflicts(){
         return "Patching conflicts";
     }
+
+    @PutMapping("/conflicts")
+    public String putConflicts(){
+        return "Putting conflicts";
+    }
+
+
 
 }
