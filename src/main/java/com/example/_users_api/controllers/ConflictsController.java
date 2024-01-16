@@ -5,7 +5,8 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class ConflictsController {
-    @GetMapping("/conflictss")
+
+    @GetMapping("/conflicts")
     public String getConflicts(){
         return "Getting conflicts";
     }
