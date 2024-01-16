@@ -6,13 +6,13 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class ConflictsController {
-    @GetMapping("/conflict")
-    public String getConflict(){
+    @GetMapping("/conflicts")
+    public String getConflicts(){
         return "Getting conflicts";
     }
 
-    @PostMapping("/conflict")
-    public String postConflict(){
+    @PostMapping("/conflicts")
+    public String postConflicts(){
         return "Posting conflicts";
     }
 
